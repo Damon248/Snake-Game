@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    background-image: url(./Assests/images/BG3.png);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+#playground{
+    background: linear-gradient(rgb(166,203,20),rgb(97,216,255));
+    height: 92vmin;
+    width: 90vmin;
+    border: 5px solid #F96A01;
+    display: grid;
+    grid-template-columns: repeat(18,1fr);
+    grid-template-rows: repeat(18,1fr);
+}
+
+#score{
+    position: absolute;
+    top: 30px;
+    right: 200px;
+    font-size: 40px;
+    font-weight: bolder;
+    height: 50px;
+}
+
+.food{
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.snake{
+    /* background-color: yellow; */
+    background: linear-gradient(rgb(236,198,40),rgb(218,178,114));
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.head{
+    /* background-color: red; */
+    background: linear-gradient(rgb(216,75,9),rgb(110,58,40));
+    border: 1px solid black;
+    border-radius: 15px;
+    transform: scale(1.03);
+}
