@@ -54,7 +54,12 @@ function gameEngine(){
        gameoverSound.play() 
        bgmSound.pause()
        snakeDir = {x: 0, y: 0}
-       alert("Game over!!! press any key to play again!")
+       swal({
+        title: "Opps!!! Game over!",
+        text: "Do you want to restart the game?",
+        button: "Restart",
+    });
+
     //    location.reload()
        snakeArr = [{x:9, y:10}]
        score = 0
