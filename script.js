@@ -55,12 +55,10 @@ function gameEngine(){
        bgmSound.pause()
        snakeDir = {x: 0, y: 0}
        swal({
-        title: "Opps!!! Game over!",
-        text: "Do you want to restart the game?",
-        button: "Restart",
-    });
-
-    //    location.reload()
+            title: "Opps!!! Game over!",
+            text: "Do you want to restart the game?",
+            button: "Restart",
+        });
        snakeArr = [{x:9, y:10}]
        score = 0
     }
