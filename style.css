@@ -38,14 +38,12 @@
 }
 
 .snake{
-    /* background-color: yellow; */
     background: linear-gradient(rgb(236,198,40),rgb(218,178,114));
     border: 1px solid black;
     border-radius: 15px;
 }
 
 .head{
-    /* background-color: red; */
     background: linear-gradient(rgb(216,75,9),rgb(110,58,40));
     border: 1px solid black;
     border-radius: 15px;
