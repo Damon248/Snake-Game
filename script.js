@@ -51,6 +51,7 @@ function gameEngine(){
 
     // case 1: if snake has collided
     if (isCollapse(snakeArr)) {
+       score = 0
        gameoverSound.play() 
        bgmSound.pause()
        snakeDir = {x: 0, y: 0}
@@ -60,7 +61,6 @@ function gameEngine(){
             button: "Restart",
         });
        snakeArr = [{x:9, y:10}]
-       score = 0
     }
 
     // case 2: if snake has eaten the food
